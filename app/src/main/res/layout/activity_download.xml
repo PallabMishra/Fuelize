@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".DownloadActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/bg_download_order"
+        app:layout_constraintBottom_toTopOf="@+id/button_proceed_order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Please Download Today's Order"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_five"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_proceed_order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Please download Today's order before you start . CSI Wishes you a happy and safe journey. Have a good day. "
+        app:layout_constraintBottom_toTopOf="@+id/button_proceed_order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/button_proceed_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:elevation="34dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        app:inner_color="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:outer_color="@color/grey"
+        app:slider_height="50dp"
+        app:text="Proceed"
+        app:text_style="bold" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_border"
+        android:gravity="center_vertical"
+        android:elevation="6dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/nav_orders"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rippleeffect"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_order" />
+
+        <ImageButton
+            android:id="@+id/nav_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rippleeffect"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_home" />
+
+        <ImageButton
+            android:id="@+id/nav_back"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rippleeffect"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_back" />
+    </LinearLayout>
+
+</LinearLayout>

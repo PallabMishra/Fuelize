@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Fuelize</string>
+
+    <string name="font_robot_regular">fonts/Roboto-Regular.ttf</string>
+    <string name="down_txt">Please wait, downloading orders\nfor the day!</string>
+    <string name="down_head_txt">Initializing</string>
+    <string name="orders_head_txt">32 orders for today</string>
+    <string name="orders_btn_txt">Total \n     Orders</string>
+
+    <string name="title_shop">item1</string>
+    <string name="title_gifts">item2</string>
+    <string name="title_cart">item3</string>
+    <string name="title_profile">item4</string>
+    <string name="invalid_mobile_no">Invalid Mobile No</string>
+
+    <!-- copy from RIL -->
+    <string name="gpio_1">GPIO2_IO25</string>
+    <string name="gpio_2">GPIO3_IO18</string>
+    <string name="gpio_3">GPIO3_IO23</string>
+    <string name="gpio_4">GPIO3_IO28</string>
+    <string name="gpio_5">GPIO3_IO29</string>
+    <string name="gpio_6">GPIO6_IO31</string>
+    <string name="gpio_7">GPIO1_IO09</string>
+    <string name="gpio_8">GPIO6_IO11</string>
+    <string name="gpio_9">GPIO6_IO14</string>
+    <string name="gpio_10">GPIO6_IO15</string>
+    <string name="high">HIGH</string>
+    <string name="low">LOW</string>
+    <string name="gpio_name">gpio</string>
+    <string name="level">level</string>
+    <string name="tips"> Note:The gpio output pin\'s value is inverted by hardware.When we set high,the gpio pin\'s output is high,and when we set low,the gpio pin\'s output is low.!!!Read gpio value need a little time.</string>
+    <string name="inputbtn">InputGpioRead</string>
+    <string name="outputbtn">OutputGpioSet</string>
+    <string name="checkBox">OUTPUT_PIN_OUTPUT_HIGH</string>
+    <string name="invalid_vehicle_no">Invalid Vehicle No</string>
+    <string name="invalid_otp_no">Invalid OTP</string>
+
+    /** PIN LOCK ALERT DIALOG BOX **/
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <string name="pinlock">PASSCODE</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="previous_pin">Please Enter the previous PIN</string>
+    <string name="set_pin">Are you sure you want to set this PIN?</string>
+    <string name="invalid_fuel_input">Enter the fuel quantity</string>
+    <string name="du_connect_on">Connect to DU</string>
+    <string name="du_connect_off">Disconnect from DU</string>
+    <string name="du_authorize">Start</string>
+    <string name="du_deauthorize">DeAuthorize</string>
+    <string name="volley_error">Issue with server! Storing Data Offline.</string>
+
+</resources>
