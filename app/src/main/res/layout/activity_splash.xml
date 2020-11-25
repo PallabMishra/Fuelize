@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="2dp"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/deliveryr" />
+
+    <com.cuberto.liquid_swipe.LiquidPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
